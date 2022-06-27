@@ -1,0 +1,32 @@
+ion-content{
+  height: 100vh;
+  width: 100vw;
+
+}
+ion-slides{
+  height: 100%;
+  ion-slide{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+p{
+  color: white;
+}
+ion-button{
+  height: 10vh;
+  width: 70%;
+  margin: 3vh 0px 0px 7vh;
+}
+img{
+  width:100%;
+  
+  margin: 2vh 0px 0px 0vh;
+
+}
+.main{
+  height: 40vh;
+  width: auto;
+  background: transparent;
+}

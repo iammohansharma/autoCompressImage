@@ -1,0 +1,18 @@
+
+
+<ion-content [fullscreen]="true" [scrollEvents]="true">
+   
+  <ion-slides [options]='slideoption' #slides>
+  <ion-slide *ngFor = "let slide of slideimages" [style.background-image] = "'url('+ slide +')'">
+ 
+  <div class="main">
+  <ion-button (click)="takePicture()">
+    <ion-icon name="camera-outline"></ion-icon>Take Photo</ion-button>
+  <img [src] = "cameraImage"/> 
+  <p> Image Size: {{kbyte}}KB</p>
+  <p> Image Size After Compress : {{imagebytes}}KB</p>
+</div>
+</ion-slide>
+</ion-slides>
+
+</ion-content>
